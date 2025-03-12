@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #121212;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222;
+    padding: 15px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.logo {
+    font-size: 24px;
+    color: red;
+}
+
+.motto {
+    color: white;
+    font-size: 14px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: red;
+}
+
+.hero {
+    position: relative;
+    height: 50vh;
+    overflow: hidden;
+    background: #333;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    color: white;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: white;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    background: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.hero .btn:hover {
+    background: darkred;
+
+}
+
+section {
+    padding: 50px 20px;
+    margin-top: 100px;
+}
+
+.card {
+    background: #1a1a1a;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.1);
+}
+
+.card h2 {
+    color: red;
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.card li {
+    font-size: 1.2em;
+}
+
+.testimonials .carousel p {
+    font-size: 1.2em;
+    color: #ddd;
+}
+
+.contact {
+    margin-top: -20px;
+    background: #222;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.contact .social-icons a {
+    color: red;
+    margin: 0 10px;
+    font-size: 24px;
+    
+}
+
+.contact .social-icons a:hover {
+    color: white;
+}
+
+.about {
+    margin-top: 10px;
+}
+
+.testimonials{
+    margin-top: -70px;
+    /* padding-top: 50px; */
+    /* margin-bottom: 100px; */
+}
